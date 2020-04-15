@@ -1,0 +1,59 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
+        xmlns:local="clr-namespace:Explorer_ToiTX"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800"  Name="_this">
+    <Window.DataContext>
+        <local:ExploreViewModel/>
+    </Window.DataContext>
+    <Grid>
+        <StackPanel Orientation="Vertical">
+            <StackPanel Height="50"  Orientation="Horizontal">
+                <Button Content="Back" Width="50" Margin="10" Command="{Binding ElementName=_this,Path=DataContext.BackBtnCmd}" ></Button>
+            </StackPanel>
+            <StackPanel Height="380" >
+                <ListBox Height="300" Name="ListFolder" ItemsSource="{Binding ListFile}" SelectedItem="{Binding SelectedExplore}">
+                    <i:Interaction.Triggers>
+                        <i:EventTrigger EventName="MouseDoubleClick">
+                            <i:InvokeCommandAction Command="{Binding ElementName=_this,Path=DataContext.SelectedFoler}" CommandParameter="{Binding ElementName=ListFolder, Path=SelectedItem}"/>
+                        </i:EventTrigger>
+                    </i:Interaction.Triggers>
+
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Width="400" Orientation="Horizontal">
+                                <Image Width="30" Height="30">
+                                    <Image.Style>
+                                        <Style TargetType="Image">
+                                            <Setter Property="Source" Value="C:\Users\Administrator\Desktop\Explorer_ToiTX\Explorer_ToiTX\Images\folder.png"/>
+                                            <Style.Triggers>
+                                                <DataTrigger Binding="{Binding Type}" Value="File">
+                                                    <Setter Property="Source" Value="C:\Users\Administrator\Desktop\Explorer_ToiTX\Explorer_ToiTX\Images\file.png"/>
+                                                </DataTrigger>
+                                            </Style.Triggers>
+                                        </Style>
+                                    </Image.Style>
+                                </Image>
+                                <TextBlock Text="{Binding Name}" Margin="10"></TextBlock>
+                                <TextBlock Text="{Binding DateModified}"  Margin="10"></TextBlock>
+                                <TextBlock Text="{Binding Type}" Margin="10"></TextBlock>
+                                <TextBlock Text="{Binding Size}" Margin="10"></TextBlock>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+
+                    <ListBox.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <WrapPanel  Orientation="Vertical" IsItemsHost="True" Width="741"/>
+                        </ItemsPanelTemplate>
+                    </ListBox.ItemsPanel>
+
+                </ListBox>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>
