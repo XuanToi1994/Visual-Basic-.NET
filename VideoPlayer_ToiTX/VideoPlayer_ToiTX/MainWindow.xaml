@@ -1,0 +1,149 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
+        xmlns:local="clr-namespace:VideoPlayer_ToiTX"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="490" Width="800" Loaded="Window_Loaded" Name="_this">
+    <Window.DataContext>
+        <local:VideoPlayViewModel/>
+    </Window.DataContext>
+    <Grid>
+        <StackPanel Orientation="Vertical">
+            <StackPanel Height="370" Orientation="Horizontal">
+                <StackPanel Width="160" Background="#996600" Orientation="Vertical">
+                    <TextBlock Text="My Videos" Foreground="AliceBlue" Margin="5"></TextBlock>
+                    <ListBox Height="350" Background="Transparent" Name="ListMedia" ItemsSource="{Binding ListMedia}" SelectedItem="{Binding SelectedVideo}">
+
+                        <i:Interaction.Triggers>
+                            <i:EventTrigger EventName="MouseDoubleClick">
+                                <i:InvokeCommandAction Command="{Binding ElementName=_this,Path=DataContext.SelectedMedia}" CommandParameter="{Binding ElementName=ListMedia, Path=SelectedItem}"/>
+                            </i:EventTrigger>
+                        </i:Interaction.Triggers>
+
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <!--tên video trong list-->
+                                <TextBlock Text="{Binding NameVideo}" VerticalAlignment="Center" HorizontalAlignment="Center" />
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                        
+                    </ListBox>
+                </StackPanel>
+                <StackPanel Width="635" Background="#006600	">
+                    <MediaElement Width="625" Height="370" LoadedBehavior="Manual" Name="playVideo" Source="{Binding PathFileVideo}" ></MediaElement>
+                </StackPanel>
+            </StackPanel>
+            <StackPanel Height="86" Orientation="Horizontal" Background="#CC9999">
+                <Image Width="75" Height="75" HorizontalAlignment="Left" Margin="4" Source="{Binding ImagePath}"></Image>
+                <StackPanel Width="188" Orientation="Vertical">
+                    <TextBlock Text="{Binding VideoName}" FontSize="17" FontWeight="Bold" Margin="5"></TextBlock>
+                    <TextBlock Text="{Binding NameSinger}" VerticalAlignment="Center" Margin="0"></TextBlock>
+                </StackPanel>
+                <StackPanel Width="350" Orientation="Vertical">
+                    <StackPanel Height="60" Orientation="Horizontal">
+                        <StackPanel.Resources>
+                            <ControlTemplate x:Key="templatePlayButton">
+                                <StackPanel Width="35" Height="35">
+                                    <Image >
+                                        <Image.Style>
+                                            <Style TargetType="Image">
+                                                <Setter Property="Source" Value="C:\Users\Administrator\Desktop\VideoPlayer_ToiTX\VideoPlayer_ToiTX\images\pause.png"/>
+                                                <Style.Triggers>
+                                                    <DataTrigger Binding="{Binding IsPlaying}" Value="False">
+                                                        <Setter Property="Source" Value="C:\Users\Administrator\Desktop\VideoPlayer_ToiTX\VideoPlayer_ToiTX\images\play.png"/>
+                                                    </DataTrigger>
+                                                </Style.Triggers>
+                                            </Style>
+                                        </Image.Style>
+                                    </Image>
+                                </StackPanel>
+                            </ControlTemplate>
+                            <ControlTemplate x:Key="templeteNextBtn">
+                                <StackPanel Width="25" Height="25">
+                                    <Image >
+                                        <Image.Style>
+                                            <Style TargetType="Image">
+                                                <Setter Property="Source" Value="C:\Users\Administrator\Desktop\VideoPlayer_ToiTX\VideoPlayer_ToiTX\images\next.png"/>
+                                                <Style.Triggers>
+                                                    <DataTrigger Binding="{Binding IsPlaying}" Value="False">
+                                                        <Setter Property="Source" Value="C:\Users\Administrator\Desktop\VideoPlayer_ToiTX\VideoPlayer_ToiTX\images\next.png"/>
+                                                    </DataTrigger>
+                                                </Style.Triggers>
+                                            </Style>
+                                        </Image.Style>
+                                    </Image>
+                                </StackPanel>
+                            </ControlTemplate>
+                            <ControlTemplate x:Key="templetePreBtn">
+                                <StackPanel Width="25" Height="25">
+                                    <Image >
+                                        <Image.Style>
+                                            <Style TargetType="Image">
+                                                <Setter Property="Source" Value="C:\Users\Administrator\Desktop\VideoPlayer_ToiTX\VideoPlayer_ToiTX\images\previous.png"/>
+                                                <!--<Style.Triggers>
+                                                    <DataTrigger Binding="{Binding IsPlaying}" Value="False">
+                                                        <Setter Property="Source" Value="C:\Users\Administrator\Desktop\VideoPlayer_ToiTX\VideoPlayer_ToiTX\images\previous.png"/>
+                                                    </DataTrigger>
+                                                </Style.Triggers>-->
+                                            </Style>
+                                        </Image.Style>
+                                    </Image>
+                                </StackPanel>
+                            </ControlTemplate>
+
+                            <ControlTemplate x:Key="templeteSuffBtn">
+                                <StackPanel Width="20" Height="20">
+                                    <Image >
+                                        <Image.Style>
+                                            <Style TargetType="Image">
+                                                <Setter Property="Source" Value="C:\Users\Administrator\Desktop\VideoPlayer_ToiTX\VideoPlayer_ToiTX\images\suffle_off.png"/>
+                                                <Style.Triggers>
+                                                    <DataTrigger Binding="{Binding IsSuffule}" Value="True">
+                                                        <Setter Property="Source" Value="C:\Users\Administrator\Desktop\VideoPlayer_ToiTX\VideoPlayer_ToiTX\images\suffle_on.png"/>
+                                                    </DataTrigger>
+                                                </Style.Triggers>
+                                            </Style>
+                                        </Image.Style>
+                                    </Image>
+                                </StackPanel>
+                            </ControlTemplate>
+
+                            <ControlTemplate x:Key="templeteReapBtn">
+                                <StackPanel Width="20" Height="20">
+                                    <Image >
+                                        <Image.Style>
+                                            <Style TargetType="Image">
+                                                <Setter Property="Source" Value="C:\Users\Administrator\Desktop\VideoPlayer_ToiTX\VideoPlayer_ToiTX\images\repeat.png"/>
+                                                <Style.Triggers>
+                                                    <DataTrigger Binding="{Binding IsRepeatOne}" Value="True">
+                                                        <Setter Property="Source" Value="C:\Users\Administrator\Desktop\VideoPlayer_ToiTX\VideoPlayer_ToiTX\images\Repeat_One.png"/>
+                                                    </DataTrigger>
+                                                </Style.Triggers>
+                                            </Style>
+                                        </Image.Style>
+                                    </Image>
+                                </StackPanel>
+                            </ControlTemplate>
+
+                        </StackPanel.Resources>
+                        <Button Content="suff" Width="30" Height="30" Margin="50, 10, 10, 10" Template="{StaticResource templeteSuffBtn}" Command="{Binding SuffleCmd}" ></Button>
+                        <Button Content="pre" Width="30" Height="30" Margin="10" Template="{StaticResource templetePreBtn}" Command="{Binding PreCmd}"></Button>
+                        <Button Content="play" Width="40" Height="40" Margin="10" Command="{Binding PlayCmd}" Template="{StaticResource templatePlayButton}">
+                        </Button>
+                        <Button Content="nex" Width="30" Height="30" Margin="10" Command="{Binding NextCmd}" Template="{StaticResource templeteNextBtn}"></Button>
+                        <Button Content="rea" Width="30" Height="30" Margin="10" Template="{StaticResource templeteReapBtn}" Command="{Binding ReapetCmd}"></Button>
+                    </StackPanel>
+                    <StackPanel Height="20" Orientation="Horizontal">
+                        <TextBlock Width="50" Text="{Binding CurrentTime}"></TextBlock>
+                        <Slider Width="220" Margin="10, 0, 10, 0" Minimum="0" Maximum="{Binding MaxValue}" Value="{Binding ValueTime}"></Slider>
+                        <TextBlock Width="50" Text="{Binding TotalTime}"></TextBlock>
+                    </StackPanel>
+                </StackPanel>
+                
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

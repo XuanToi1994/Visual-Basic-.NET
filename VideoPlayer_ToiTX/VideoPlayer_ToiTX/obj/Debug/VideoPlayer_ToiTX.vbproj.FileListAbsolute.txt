@@ -1,0 +1,93 @@
+C:\Users\mac\source\repos\VideoPlayer_ToiTX\VideoPlayer_ToiTX\bin\Debug\VideoPlayer_ToiTX.exe.config
+C:\Users\mac\source\repos\VideoPlayer_ToiTX\VideoPlayer_ToiTX\bin\Debug\VideoPlayer_ToiTX.exe
+C:\Users\mac\source\repos\VideoPlayer_ToiTX\VideoPlayer_ToiTX\bin\Debug\VideoPlayer_ToiTX.pdb
+C:\Users\mac\source\repos\VideoPlayer_ToiTX\VideoPlayer_ToiTX\bin\Debug\VideoPlayer_ToiTX.xml
+C:\Users\mac\source\repos\VideoPlayer_ToiTX\VideoPlayer_ToiTX\bin\Debug\CommonServiceLocator.dll
+C:\Users\mac\source\repos\VideoPlayer_ToiTX\VideoPlayer_ToiTX\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\mac\source\repos\VideoPlayer_ToiTX\VideoPlayer_ToiTX\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\mac\source\repos\VideoPlayer_ToiTX\VideoPlayer_ToiTX\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Users\mac\source\repos\VideoPlayer_ToiTX\VideoPlayer_ToiTX\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\mac\source\repos\VideoPlayer_ToiTX\VideoPlayer_ToiTX\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\mac\source\repos\VideoPlayer_ToiTX\VideoPlayer_ToiTX\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\mac\source\repos\VideoPlayer_ToiTX\VideoPlayer_ToiTX\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\mac\source\repos\VideoPlayer_ToiTX\VideoPlayer_ToiTX\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\mac\source\repos\VideoPlayer_ToiTX\VideoPlayer_ToiTX\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\mac\source\repos\VideoPlayer_ToiTX\VideoPlayer_ToiTX\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Users\mac\source\repos\VideoPlayer_ToiTX\VideoPlayer_ToiTX\obj\Debug\VideoPlayer_ToiTX.vbprojAssemblyReference.cache
+C:\Users\mac\source\repos\VideoPlayer_ToiTX\VideoPlayer_ToiTX\obj\Debug\MainWindow.g.vb
+C:\Users\mac\source\repos\VideoPlayer_ToiTX\VideoPlayer_ToiTX\obj\Debug\Application.g.vb
+C:\Users\mac\source\repos\VideoPlayer_ToiTX\VideoPlayer_ToiTX\obj\Debug\VideoPlayer_ToiTX_Content.g.vb
+C:\Users\mac\source\repos\VideoPlayer_ToiTX\VideoPlayer_ToiTX\obj\Debug\VideoPlayer_ToiTX_MarkupCompile.cache
+C:\Users\mac\source\repos\VideoPlayer_ToiTX\VideoPlayer_ToiTX\obj\Debug\VideoPlayer_ToiTX_MarkupCompile.lref
+C:\Users\mac\source\repos\VideoPlayer_ToiTX\VideoPlayer_ToiTX\obj\Debug\MainWindow.baml
+C:\Users\mac\source\repos\VideoPlayer_ToiTX\VideoPlayer_ToiTX\obj\Debug\VideoPlayer_ToiTX.g.resources
+C:\Users\mac\source\repos\VideoPlayer_ToiTX\VideoPlayer_ToiTX\obj\Debug\VideoPlayer_ToiTX.Resources.resources
+C:\Users\mac\source\repos\VideoPlayer_ToiTX\VideoPlayer_ToiTX\obj\Debug\VideoPlayer_ToiTX.vbproj.GenerateResource.cache
+C:\Users\mac\source\repos\VideoPlayer_ToiTX\VideoPlayer_ToiTX\obj\Debug\VideoPlayer_ToiTX.vbproj.CoreCompileInputs.cache
+C:\Users\mac\source\repos\VideoPlayer_ToiTX\VideoPlayer_ToiTX\obj\Debug\VideoPlayer_ToiTX.vbproj.CopyComplete
+C:\Users\mac\source\repos\VideoPlayer_ToiTX\VideoPlayer_ToiTX\obj\Debug\VideoPlayer_ToiTX.exe
+C:\Users\mac\source\repos\VideoPlayer_ToiTX\VideoPlayer_ToiTX\obj\Debug\VideoPlayer_ToiTX.xml
+C:\Users\mac\source\repos\VideoPlayer_ToiTX\VideoPlayer_ToiTX\obj\Debug\VideoPlayer_ToiTX.pdb
+C:\Users\mac\source\repos\VideoPlayer_ToiTX\VideoPlayer_ToiTX\obj\Debug\GeneratedInternalTypeHelper.g.vb
+C:\Users\Administrator\Desktop\1.TRANNING VB\2.DEMO\VideoPlayer_ToiTX\VideoPlayer_ToiTX\bin\Debug\VideoPlayer_ToiTX.exe.config
+C:\Users\Administrator\Desktop\1.TRANNING VB\2.DEMO\VideoPlayer_ToiTX\VideoPlayer_ToiTX\bin\Debug\VideoPlayer_ToiTX.exe
+C:\Users\Administrator\Desktop\1.TRANNING VB\2.DEMO\VideoPlayer_ToiTX\VideoPlayer_ToiTX\bin\Debug\VideoPlayer_ToiTX.pdb
+C:\Users\Administrator\Desktop\1.TRANNING VB\2.DEMO\VideoPlayer_ToiTX\VideoPlayer_ToiTX\bin\Debug\VideoPlayer_ToiTX.xml
+C:\Users\Administrator\Desktop\1.TRANNING VB\2.DEMO\VideoPlayer_ToiTX\VideoPlayer_ToiTX\bin\Debug\CommonServiceLocator.dll
+C:\Users\Administrator\Desktop\1.TRANNING VB\2.DEMO\VideoPlayer_ToiTX\VideoPlayer_ToiTX\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\Administrator\Desktop\1.TRANNING VB\2.DEMO\VideoPlayer_ToiTX\VideoPlayer_ToiTX\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\Administrator\Desktop\1.TRANNING VB\2.DEMO\VideoPlayer_ToiTX\VideoPlayer_ToiTX\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Users\Administrator\Desktop\1.TRANNING VB\2.DEMO\VideoPlayer_ToiTX\VideoPlayer_ToiTX\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Administrator\Desktop\1.TRANNING VB\2.DEMO\VideoPlayer_ToiTX\VideoPlayer_ToiTX\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\Administrator\Desktop\1.TRANNING VB\2.DEMO\VideoPlayer_ToiTX\VideoPlayer_ToiTX\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\Administrator\Desktop\1.TRANNING VB\2.DEMO\VideoPlayer_ToiTX\VideoPlayer_ToiTX\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\Administrator\Desktop\1.TRANNING VB\2.DEMO\VideoPlayer_ToiTX\VideoPlayer_ToiTX\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\Administrator\Desktop\1.TRANNING VB\2.DEMO\VideoPlayer_ToiTX\VideoPlayer_ToiTX\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\Administrator\Desktop\1.TRANNING VB\2.DEMO\VideoPlayer_ToiTX\VideoPlayer_ToiTX\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Users\Administrator\Desktop\1.TRANNING VB\2.DEMO\VideoPlayer_ToiTX\VideoPlayer_ToiTX\obj\Debug\VideoPlayer_ToiTX.vbprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\1.TRANNING VB\2.DEMO\VideoPlayer_ToiTX\VideoPlayer_ToiTX\obj\Debug\MainWindow.g.vb
+C:\Users\Administrator\Desktop\1.TRANNING VB\2.DEMO\VideoPlayer_ToiTX\VideoPlayer_ToiTX\obj\Debug\Application.g.vb
+C:\Users\Administrator\Desktop\1.TRANNING VB\2.DEMO\VideoPlayer_ToiTX\VideoPlayer_ToiTX\obj\Debug\VideoPlayer_ToiTX_Content.g.vb
+C:\Users\Administrator\Desktop\1.TRANNING VB\2.DEMO\VideoPlayer_ToiTX\VideoPlayer_ToiTX\obj\Debug\GeneratedInternalTypeHelper.g.vb
+C:\Users\Administrator\Desktop\1.TRANNING VB\2.DEMO\VideoPlayer_ToiTX\VideoPlayer_ToiTX\obj\Debug\VideoPlayer_ToiTX_MarkupCompile.cache
+C:\Users\Administrator\Desktop\1.TRANNING VB\2.DEMO\VideoPlayer_ToiTX\VideoPlayer_ToiTX\obj\Debug\VideoPlayer_ToiTX_MarkupCompile.lref
+C:\Users\Administrator\Desktop\1.TRANNING VB\2.DEMO\VideoPlayer_ToiTX\VideoPlayer_ToiTX\obj\Debug\MainWindow.baml
+C:\Users\Administrator\Desktop\1.TRANNING VB\2.DEMO\VideoPlayer_ToiTX\VideoPlayer_ToiTX\obj\Debug\VideoPlayer_ToiTX.g.resources
+C:\Users\Administrator\Desktop\1.TRANNING VB\2.DEMO\VideoPlayer_ToiTX\VideoPlayer_ToiTX\obj\Debug\VideoPlayer_ToiTX.Resources.resources
+C:\Users\Administrator\Desktop\1.TRANNING VB\2.DEMO\VideoPlayer_ToiTX\VideoPlayer_ToiTX\obj\Debug\VideoPlayer_ToiTX.vbproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\1.TRANNING VB\2.DEMO\VideoPlayer_ToiTX\VideoPlayer_ToiTX\obj\Debug\VideoPlayer_ToiTX.vbproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\1.TRANNING VB\2.DEMO\VideoPlayer_ToiTX\VideoPlayer_ToiTX\obj\Debug\VideoPlayer_ToiTX.vbproj.CopyComplete
+C:\Users\Administrator\Desktop\1.TRANNING VB\2.DEMO\VideoPlayer_ToiTX\VideoPlayer_ToiTX\obj\Debug\VideoPlayer_ToiTX.exe
+C:\Users\Administrator\Desktop\1.TRANNING VB\2.DEMO\VideoPlayer_ToiTX\VideoPlayer_ToiTX\obj\Debug\VideoPlayer_ToiTX.xml
+C:\Users\Administrator\Desktop\1.TRANNING VB\2.DEMO\VideoPlayer_ToiTX\VideoPlayer_ToiTX\obj\Debug\VideoPlayer_ToiTX.pdb
+C:\Users\Administrator\Desktop\VideoPlayer_ToiTX\VideoPlayer_ToiTX\bin\Debug\VideoPlayer_ToiTX.exe.config
+C:\Users\Administrator\Desktop\VideoPlayer_ToiTX\VideoPlayer_ToiTX\bin\Debug\VideoPlayer_ToiTX.exe
+C:\Users\Administrator\Desktop\VideoPlayer_ToiTX\VideoPlayer_ToiTX\bin\Debug\VideoPlayer_ToiTX.pdb
+C:\Users\Administrator\Desktop\VideoPlayer_ToiTX\VideoPlayer_ToiTX\bin\Debug\VideoPlayer_ToiTX.xml
+C:\Users\Administrator\Desktop\VideoPlayer_ToiTX\VideoPlayer_ToiTX\bin\Debug\CommonServiceLocator.dll
+C:\Users\Administrator\Desktop\VideoPlayer_ToiTX\VideoPlayer_ToiTX\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\Administrator\Desktop\VideoPlayer_ToiTX\VideoPlayer_ToiTX\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\Administrator\Desktop\VideoPlayer_ToiTX\VideoPlayer_ToiTX\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Users\Administrator\Desktop\VideoPlayer_ToiTX\VideoPlayer_ToiTX\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Administrator\Desktop\VideoPlayer_ToiTX\VideoPlayer_ToiTX\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\Administrator\Desktop\VideoPlayer_ToiTX\VideoPlayer_ToiTX\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\Administrator\Desktop\VideoPlayer_ToiTX\VideoPlayer_ToiTX\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\Administrator\Desktop\VideoPlayer_ToiTX\VideoPlayer_ToiTX\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\Administrator\Desktop\VideoPlayer_ToiTX\VideoPlayer_ToiTX\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\Administrator\Desktop\VideoPlayer_ToiTX\VideoPlayer_ToiTX\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Users\Administrator\Desktop\VideoPlayer_ToiTX\VideoPlayer_ToiTX\obj\Debug\VideoPlayer_ToiTX.vbprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\VideoPlayer_ToiTX\VideoPlayer_ToiTX\obj\Debug\MainWindow.g.vb
+C:\Users\Administrator\Desktop\VideoPlayer_ToiTX\VideoPlayer_ToiTX\obj\Debug\Application.g.vb
+C:\Users\Administrator\Desktop\VideoPlayer_ToiTX\VideoPlayer_ToiTX\obj\Debug\VideoPlayer_ToiTX_Content.g.vb
+C:\Users\Administrator\Desktop\VideoPlayer_ToiTX\VideoPlayer_ToiTX\obj\Debug\GeneratedInternalTypeHelper.g.vb
+C:\Users\Administrator\Desktop\VideoPlayer_ToiTX\VideoPlayer_ToiTX\obj\Debug\VideoPlayer_ToiTX_MarkupCompile.cache
+C:\Users\Administrator\Desktop\VideoPlayer_ToiTX\VideoPlayer_ToiTX\obj\Debug\VideoPlayer_ToiTX_MarkupCompile.lref
+C:\Users\Administrator\Desktop\VideoPlayer_ToiTX\VideoPlayer_ToiTX\obj\Debug\MainWindow.baml
+C:\Users\Administrator\Desktop\VideoPlayer_ToiTX\VideoPlayer_ToiTX\obj\Debug\VideoPlayer_ToiTX.g.resources
+C:\Users\Administrator\Desktop\VideoPlayer_ToiTX\VideoPlayer_ToiTX\obj\Debug\VideoPlayer_ToiTX.Resources.resources
+C:\Users\Administrator\Desktop\VideoPlayer_ToiTX\VideoPlayer_ToiTX\obj\Debug\VideoPlayer_ToiTX.vbproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\VideoPlayer_ToiTX\VideoPlayer_ToiTX\obj\Debug\VideoPlayer_ToiTX.vbproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\VideoPlayer_ToiTX\VideoPlayer_ToiTX\obj\Debug\VideoPlayer_ToiTX.vbproj.CopyComplete
+C:\Users\Administrator\Desktop\VideoPlayer_ToiTX\VideoPlayer_ToiTX\obj\Debug\VideoPlayer_ToiTX.exe
+C:\Users\Administrator\Desktop\VideoPlayer_ToiTX\VideoPlayer_ToiTX\obj\Debug\VideoPlayer_ToiTX.xml
+C:\Users\Administrator\Desktop\VideoPlayer_ToiTX\VideoPlayer_ToiTX\obj\Debug\VideoPlayer_ToiTX.pdb
