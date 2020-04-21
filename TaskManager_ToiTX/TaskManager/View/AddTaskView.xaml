@@ -1,0 +1,40 @@
+﻿<Window x:Class="AddTaskView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TaskManager"
+        mc:Ignorable="d"
+        Title="AddTaskView" WindowStartupLocation="CenterScreen" Height="327.188" Background="#FFFFCC" Width="365.938">
+    <Window.DataContext>
+        <local:AddTaskViewModel/>
+    </Window.DataContext>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+           
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal" >
+            <TextBlock Text="Name task" Margin="20" Width="100"/>
+            <TextBox Text="{Binding Task.Name}" Width="200" Height="20" Margin="0,22,0,21" />
+        </StackPanel>
+        
+        <StackPanel Orientation="Horizontal" Grid.Row="1" >
+            <TextBlock Text="Content" Margin="20" Width="100"/>
+            <TextBox Text="{Binding Task.Content}" Width="200" Height="20" Margin="0,22,0,21" />
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" Grid.Row="2" >
+            <TextBlock Text="Catelogry" Margin="20" Width="100"/>
+            <TextBox Text="{Binding Task.Category}" Width="200" Height="20" Margin="0,22,0,21" />
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" Grid.Row="3" HorizontalAlignment="Right">
+            <Button Content="Save" Width="60" Margin="20" Background="#33FFCC" Command="{Binding SaveCmd}"  />
+            <Button Content="Cance" Width="60" Margin="20" Background="#FF6600" Click="Button_Click" />
+        </StackPanel>
+    </Grid>
+</Window>

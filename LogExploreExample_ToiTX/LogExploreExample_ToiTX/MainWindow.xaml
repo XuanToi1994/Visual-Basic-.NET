@@ -1,0 +1,105 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LogExploreExample_ToiTX"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="824">
+    <Window.DataContext>
+        <local:ExploreViewModel></local:ExploreViewModel>
+    </Window.DataContext>
+    <Window.Resources>
+        <Style TargetType="{x:Type DataGridRow}" x:Key="toi">
+            <Setter Property="Background" Value="Orange">
+            </Setter>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Height" Value="25"/>
+            <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+            <Style.Triggers>
+
+                <!--<Trigger Property="IsSelected" Value="True">
+                                <Setter Property="Background" Value="DimGray"/>
+                            </Trigger>-->
+
+                <DataTrigger Binding="{Binding Comment}" Value="Creat">
+                    <Setter Property="Background" Value="Green"></Setter>
+                </DataTrigger>
+                <DataTrigger Binding="{Binding Comment}" Value="Delete">
+                    <Setter Property="Background" Value="Red"></Setter>
+                </DataTrigger>
+                <DataTrigger Binding="{Binding Comment}" Value="Changed">
+                    <Setter Property="Background" Value="Gray"></Setter>
+                </DataTrigger>
+                <DataTrigger Binding="{Binding Comment}" Value="Renamed">
+                    <Setter Property="Background" Value="Violet"></Setter>
+                </DataTrigger>
+
+            </Style.Triggers>
+        </Style>
+        
+    </Window.Resources>
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="200"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        
+        <StackPanel Grid.Row="0">
+            <DataGrid  ItemsSource="{Binding ListExplore}" AutoGenerateColumns="False" CanUserAddRows="False" RowStyle="{StaticResource toi}">
+                
+                <DataGrid.Columns  >
+                    <DataGridTemplateColumn Width="150" Header="Name">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Name}" ></TextBlock>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+
+                    <DataGridTemplateColumn Width="100" Header="Size" >
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Size}" ></TextBlock>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+
+                    <DataGridTemplateColumn Width="250" Header="Path">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Path}" ></TextBlock>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+
+                    <DataGridTemplateColumn Width="150" Header="Comment">
+                        <DataGridTemplateColumn.CellTemplate >
+                            <DataTemplate >
+                                <TextBlock Text="{Binding TimeChange}" ></TextBlock>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                    
+                    <DataGridTemplateColumn Width="150" Header="Time Change">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding TimeChange}" ></TextBlock>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                </DataGrid.Columns>
+           
+            </DataGrid>
+        </StackPanel>
+
+        <ListBox Grid.Row="1" ItemsSource="{Binding Log}">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding}"></TextBlock>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+    </Grid>
+</Window>
